@@ -535,8 +535,8 @@ config LIBNGINX_STREAM_SSL
 	default n
 	select LIBOPENSSL
 	select LIBSSL
-	select LIBUKSWRAND
-	select LIBUKSWRAND_DEVFS
+	select LIBUKRANDOM
+	select LIBUKRANDOM_DEVFS
 	help
 		The ngx_stream_ssl_module module provides the necessary support for a 
 		stream proxy server to work with the SSL/TLS protocol.
